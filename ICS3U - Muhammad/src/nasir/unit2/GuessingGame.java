@@ -3,23 +3,20 @@ package nasir.unit2;
 import java.util.Scanner;
 
 /**
- * This is a number guessing game.
+ * This is a number guessing game where the computer picks a random number and
+ * the user has to guess the number. If the user is able to guesss it they win
+ * the game,if not they can try again.
  * 
- * @author Muhammad Nasir 
- * october 23,2019
+ * @author Muhammad Nasir october 23,2019
  */
 public class GuessingGame {
 
 	public static void main(String[] args) {
-
+//Entry point of the program
 		int secretnumber;
 		int usernumber;
 
-
-
 		Scanner c = new Scanner(System.in);
-
-
 
 		do {
 			// The following line of code draws a random number for the game
@@ -28,19 +25,19 @@ public class GuessingGame {
 			// Asks the user to input the number of choice choice
 			System.out.println("Please eneter a number between 1 and 20: ");
 
-			//The following block stores the users number in the variable "usernumber" and displays the secret number and the users number.
-			 usernumber = c.nextInt();
+			// The following block stores the users number in the variable "usernumber" and
+			// displays the secret number and the users number.
+			usernumber = c.nextInt();
 			System.out.println("Secret Number: " + secretnumber);
 			System.out.println("Player's Number: " + usernumber);
 
-			//Compares the two numbers
+			// Compares the two numbers
 			if (secretnumber == usernumber) {
 				System.out.println("You Won!");
-			} 
-		
-		}	while(usernumber!= secretnumber);
-			System.out.println("Please try again");
+			}
+
+		} while (usernumber != secretnumber);
+		System.out.println("Please try again");
 	}
 }
-		
-		
+//End of the program

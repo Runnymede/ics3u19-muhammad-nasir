@@ -9,7 +9,7 @@ package nasir.unit2;
 public class InvestmentProgram {
 
 	public static void main(String[] args) {
-
+		// Start of code.
 		double investment = 2500;
 		int time = 0;
 
@@ -27,3 +27,4 @@ public class InvestmentProgram {
 	}
 
 }
+//End of code.

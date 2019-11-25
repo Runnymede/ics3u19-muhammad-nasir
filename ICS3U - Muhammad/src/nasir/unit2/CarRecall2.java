@@ -1,5 +1,10 @@
 package nasir.unit2;
 
+/**
+ * This program informs the user if the car whose model number they entered needs repairs or not.The program closes if an invalid car model is entered.
+ * @author Muhammad Nasir
+ * October 28,2019
+ */
 import java.util.Scanner;
 
 public class CarRecall2 {
@@ -7,11 +12,10 @@ public class CarRecall2 {
 	public static void main(String[] args) {
 
 		Scanner c = new Scanner(System.in);
-
-		
-//Variable declared
+		//Entry point of the code
+		// Variable declared
 		int carModel;
-		
+
 		do {
 			// The following two statements get the users input.
 			System.out.println("Please enter the model number: ");
@@ -19,6 +23,7 @@ public class CarRecall2 {
 			switch (carModel) {
 
 			case 199:
+				
 
 			case 179:
 
@@ -49,7 +54,8 @@ public class CarRecall2 {
 				System.out.println("Your car is not defective.Therefore,doesn't need to be repaired.");
 			}
 
-	//The following while closes the program if someone enters a invalid car model,which in this case is 0.
+			// The following while closes the program if someone enters a invalid car
+			// model,which in this case is 0.
 		} while (carModel != 0);
 		System.out.println("Closing Program");
 

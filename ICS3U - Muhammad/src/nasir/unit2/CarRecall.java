@@ -6,15 +6,14 @@ import java.util.Scanner;
  * This program will inform the users if their car is defective and needs
  * repairs.
  * 
- * @author Muhammad Nasir 
- *October 4,2019
+ * @author Muhammad Nasir October 4,2019
  */
 public class CarRecall {
 
 	public static void main(String[] args) {
 
 		Scanner c = new Scanner(System.in);
-
+		//Entry point of code.
 		// The following two statements get the users input.
 		System.out.println("Please enter the model number: ");
 		int carModel = c.nextInt();
@@ -56,4 +55,3 @@ public class CarRecall {
 
 }
 //This is the end of the code.
-
