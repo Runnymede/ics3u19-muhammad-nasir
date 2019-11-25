@@ -2,6 +2,11 @@ package nasir.unit3;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * @author 344979026
+ *
+ */
 public class NameListArrays {
 
 	public static void main(String[] args) {
